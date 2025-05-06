@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adam Store SM</title>
+  <style>
+    :root {
+      --primary-color: #0f172a;
+      --secondary-color: #1e293b;
+      --accent-color: #4ade80;
+      --text-color: #f1f5f9;
+      --card-bg: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      direction: rtl;
+    }
+
+    header {
+      background: linear-gradient(to left, #0ea5e9, #22c55e);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 26px;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+
+    nav {
+      background-color: var(--secondary-color);
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #a3e635;
+    }
+
+    .container {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+
+    .category-button {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: #0f172a;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .category-button:hover {
+      background-color: #22c55e;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    🕹️ Adam Store SM - بيع حسابات ستيم
+  </header>
+
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="reviews.html">تقييمات العملاء</a>
+  </nav>
+
+  <div class="container">
+    <h2>اختر الفئة السعرية المناسبة</h2>
+    <a class="category-button" href="low.html">💰 من 100 إلى 300 درهم</a>
+    <a class="category-button" href="mid.html">💰 من 300 إلى 600 درهم</a>
+    <a class="category-button" href="high.html">💰 من 600 إلى 900 درهم</a>
+  </div>
+<!-- زر واتساب عائم -->
+<a href="https://wa.me/212660203286?text=مرحباً،%20لدي%20استفسار%20حول%20حسابات%20Adam%20Store%20SM" 
+   class="whatsapp-float" target="_blank" title="تواصل معنا عبر واتساب">
+  🟢 تواصل معنا
+</a>
+</body>
+</html>
